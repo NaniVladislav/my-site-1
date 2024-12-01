@@ -150,4 +150,119 @@ line-height: 24px;
     right: 0;
     background:url(/img/ford.png) no-repeat;
 }
+/*Rent*/
+
+#rent-section{
+    padding:120px 0 ;
+}
+.rent-wrap{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rent{
+    font-weight: 600;
+    position: relative;
+    height: 524px;
+    background: url(/img/supercar.png) 50%/cover no-repeat;
+}
+.rent:nth-child(2) {
+    background-image:url(img/sportcar.png) ;
+}
+.rent:nth-child(3) {
+    background-image:url(img/suv.png) ;
+}
+    
+.rent:nth-child(4) {
+    background-image:url(img/supersuv.png) ;
+}
+.rent-name{
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    font-size: 40px;
+    letter-spacing: 0.6px;
+}
+.rent-link{
+    position: absolute;
+    bottom: 48px;
+    right:60px;
+    padding-right: 30px;
+    font-size: 24px;
+    letter-spacing: 0.6px;
+
+}
+
+/*Services*/
+
+#services-section{
+    padding-bottom: 120px;
+}
+
+.services-section_title{
+    margin-bottom: 66px;
+    text-align: left;
+}
+.services-wrap{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 24px;
+}
+.services-img{
+    margin-bottom: 24px;
+}
+
+.services-title{
+    margin-bottom: 16px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*Destination*/
+#destination-section{
+    padding-bottom: 162px;
+}
+
+.destination-section_title{
+    width: 590px;
+    margin:  0 auto 40px;
+}
+.destination-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:24px;
+}
+
+.destination{
+    border: 1px solid #171717;
+    background-color: #171717;
+}
+.destination-info{
+padding: 24px;
+}
+.destination-title{
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+   
+.destination-text{
+margin: 10px 0 25px;
+color:rgb(225 225 225 / 80%)
+}
+
+.destination-price{
+    margin-bottom: 17px;
+    font-weight: 600;
+    position: relative;
+    display: block;
+   
+}
+.destination-link{
+    color: #EE8313;
+}
+
+    
+    
+
+
 
